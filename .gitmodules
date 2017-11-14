@@ -1,0 +1,3 @@
+[submodule "csharp-exercises"]
+	path = csharp-exercises
+	url = https://github.com/creativeoj/csharp-exercises.git

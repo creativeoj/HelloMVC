@@ -12,9 +12,11 @@ namespace HelloMVC.Controllers
         {
             string html = "<form method='post' >" +
                 "<input type='text' name='name'  />" +
+               
                 "<input type='submit' value='Greet me!' />" +
                 "</form>";
-            return Redirect("/Hello/Goodbye");
+            return Content(html, "text/html");
+            //return Redirect("/Hello/Goodbye");
 
         }
         //Hello
